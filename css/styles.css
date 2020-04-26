@@ -1,13 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+@font-face {
+    font-family: 'Merriweather-Bold';
+    src: url('../fonts/Merriweather-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Merriweather-Regular';
+    src: url('../fonts/Merriweather-Regular.ttf');
+    font-weight: bold;
+}
 * {
     box-sizing: border-box;
 }
 
 :root {
-    --heading-font-stack: 'Roboto', sans-serif;
-    --body-font-stack: 'Roboto', sans-serif;
+    --heading-font-stack: 'Merriweather','Merriweather-Bold', serif;
+    --body-font-stack: 'Merriweather', 'Merriweather-Regular', serif;
     --primary-color: #2d3945;
 }
 
@@ -24,13 +35,10 @@ h2,
 legend {
     margin: 0;
     color: var(--primary-color);
+    font-family: var(--heading-font-stack);
     font-size: 1.3rem;
     font-weight: 700;
 
-}
-
-h3 {
-    padding-top: 20px;
 }
 
 .main-text {
