@@ -12,6 +12,7 @@
     src: url('../fonts/Merriweather-Regular.ttf');
     font-weight: normal;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -20,6 +21,7 @@
     --heading-font-stack: 'Merriweather','Merriweather-Bold', serif;
     --body-font-stack: 'Merriweather', 'Merriweather-Regular', serif;
     --primary-color: #2d3945;
+    --secondary-color: #55687a;
 }
 
 body{
@@ -61,7 +63,7 @@ legend {
 }
 
 .about-newsletter p {
-    color: #9da3a8;
+    color: var(--secondary-color);
     line-height: 1.4;
     margin-top: 12px;
 }
@@ -71,10 +73,7 @@ legend {
     border-top: 2px solid var(--primary-color);
 }
 
-input[type="text"],
-input[type="tel"],
-input[type="email"],
-select {
+.input-field {
     display: block;
     width: 100%;
     border: none;
@@ -84,8 +83,12 @@ select {
     padding: 16px;
 }
 
+legend {
+    margin: 15px 0;
+}
+
 legend ~ label {
-    color: #55687a;
+    color: var(--secondary-color);
     padding: 5px 0;
     display: block;
     font-size: 0.938rem;
@@ -97,12 +100,8 @@ fieldset {
     padding: 0;
 }
 
-legend {
-    margin: 15px 0;
-}
-
 fieldset p {
-    color: #9da3a8;
+    color: var(--secondary-color);
     line-height: 1.4;
     margin-top: 0;
 }
