@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --heading-font-stack: 'Roboto', sans-serif;
+    --body-font-stack: 'Roboto', sans-serif;
+    --primary-color: #2d3945;
+}
+
+body{
+    margin: 0 auto;
+    font-family: var(--body-font-stack);
+}
+
+header {
+    text-align: center;
+}
+
+h2,
+legend {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 700;
+
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+.main-text {
+    background-color: #2d3945;
+    color: white;
+    padding: 20px 0;
+}
+
+.main-text h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.about-newsletter {
+    border-bottom: 5px solid var(--primary-color);
+    margin: 15px 4% -3px;
+
+}
+
+.about-newsletter p {
+    color: #9da3a8;
+    line-height: 1.4;
+    margin-top: 12px;
+}
+
+.form-container {
+    margin: 5px 4%;
+    border-top: 2px solid var(--primary-color);
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #eff0f1;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 16px;
+}
+
+legend ~ label {
+    color: #55687a;
+    padding: 5px 0;
+    display: block;
+    font-size: 0.938rem;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    margin: 15px 0;
+}
+
+fieldset p {
+    color: #9da3a8;
+    line-height: 1.4;
+    margin-top: 0;
+}
