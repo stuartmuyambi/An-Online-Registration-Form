@@ -94,6 +94,12 @@ legend ~ label {
     font-size: 0.938rem;
 }
 
+::placeholder {
+    text-align: right;
+    color: #9aa0a5;
+    font-size: 0.8rem;
+}
+
 fieldset {
     border: none;
     margin: 0;
