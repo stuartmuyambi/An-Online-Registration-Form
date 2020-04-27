@@ -13,7 +13,9 @@
     font-weight: normal;
 }
 
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -44,7 +46,7 @@ legend {
 }
 
 .main-text {
-    background-color: #2d3945;
+    background-color: var(--primary-color);
     color: white;
     padding: 20px 0;
     margin-bottom: 20px;
