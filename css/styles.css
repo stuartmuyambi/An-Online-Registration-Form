@@ -195,7 +195,7 @@ button[type="submit"]:hover {
 
     .about-newsletter,
     .form-container {
-        width: 68%;
+        width: 58%;
         margin: auto;
     }
     .form-field {
@@ -211,6 +211,10 @@ button[type="submit"]:hover {
 
     .about-newsletter {
         margin-bottom: 2px;
+       }
+
+       button[type="submit"] {
+        padding: 20px 0;
        }
        
 }
