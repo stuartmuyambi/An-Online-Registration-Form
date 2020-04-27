@@ -178,6 +178,11 @@ button[type="submit"] {
     margin-bottom: 30px;
 }
 
+button[type="submit"]:hover {
+    background-color: teal;
+    transition: 0.5s ease-in-out;
+}
+
 .form-container > p {
     text-align: center;
     font-size: 0.875rem;
