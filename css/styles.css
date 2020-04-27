@@ -90,6 +90,11 @@ legend {
     width: 50%;
 }
 
+.input-field:focus {
+    border: 2px solid var(--primary-color);
+    transition: ease 0.2s;
+}
+
 legend {
     margin: 15px 0;
 }
@@ -105,6 +110,7 @@ legend ~ label {
     text-align: right;
     color: #75787a;
     font-size: 0.8rem;
+    font-style: italic;
 }
 
 fieldset {
