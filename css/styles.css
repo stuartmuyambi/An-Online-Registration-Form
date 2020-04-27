@@ -88,9 +88,9 @@ legend {
     padding: 16px;
 }
 
-.input-field:last-child {
+/* .input-field:last-child {
     width: 50%;
-}
+} */
 
 .input-field:focus,
 textarea:focus {
@@ -102,7 +102,7 @@ legend {
     margin: 15px 0;
 }
 
-legend ~ label {
+.form-field  label {
     color: var(--secondary-color);
     padding: 5px 0;
     display: block;
@@ -188,4 +188,29 @@ button[type="submit"]:hover {
     font-size: 0.875rem;
     color: var(--secondary-color);
     margin-bottom: 150px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+
+    .about-newsletter,
+    .form-container {
+        width: 68%;
+        margin: auto;
+    }
+    .form-field {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .input-field {
+        width: 70%;
+    }
+
+    .about-newsletter {
+        margin-bottom: 2px;
+       }
+       
 }
