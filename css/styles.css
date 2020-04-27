@@ -23,7 +23,7 @@
     --heading-font-stack: 'Merriweather','Merriweather-Bold', serif;
     --body-font-stack: 'Merriweather', 'Merriweather-Regular', serif;
     --primary-color: #2d3945;
-    --secondary-color: #607588;
+    --secondary-color: #4f5e6c;
 }
 
 body{
@@ -131,4 +131,19 @@ fieldset p {
     color: var(--secondary-color);
     line-height: 1.4;
     margin-top: 16px;
+}
+
+.selection-container {
+    margin: 13px 0;
+    color: var(--secondary-color);
+}
+
+[type="checkbox"],
+[type="radio"] {
+    margin-right: 10px;
+}
+
+form > fieldset:last-child > p:last-of-type {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
