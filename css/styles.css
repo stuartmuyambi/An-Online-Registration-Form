@@ -21,7 +21,7 @@
     --heading-font-stack: 'Merriweather','Merriweather-Bold', serif;
     --body-font-stack: 'Merriweather', 'Merriweather-Regular', serif;
     --primary-color: #2d3945;
-    --secondary-color: #55687a;
+    --secondary-color: #607588;
 }
 
 body{
@@ -66,14 +66,13 @@ legend {
 .about-newsletter p {
     color: var(--secondary-color);
     line-height: 1.4;
-    margin-top: 15px;
-    margin-bottom: 25px;
+    margin: 15px 0 25px 0;
 }
 
 .form-container {
     margin: 5px 4%;
     border-top: 2px solid var(--primary-color);
-    padding-top: 5px;
+    padding: 5px 0 0 0;
 }
 
 .input-field {
@@ -85,6 +84,10 @@ legend {
     margin: 10px 0;
     padding: 16px;
     color: var(--secondary-color);
+}
+
+.input-field:last-child {
+    width: 50%;
 }
 
 legend {
@@ -100,7 +103,7 @@ legend ~ label {
 
 ::placeholder {
     text-align: right;
-    color: #9aa0a5;
+    color: #75787a;
     font-size: 0.8rem;
 }
 
