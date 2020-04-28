@@ -123,7 +123,7 @@ fieldset {
 }
 
 form > fieldset:first-of-type {
-    border-bottom: 3px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
     margin-bottom: 35px;
     padding-bottom: 35px;
 }
