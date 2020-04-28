@@ -85,17 +85,16 @@ legend {
     border-radius: 5px;
     color: var(--secondary-color);
     margin: 10px 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     padding: 16px;
 }
 
-/* .input-field:last-child {
-    width: 50%;
-} */
-
 .input-field:focus,
 textarea:focus {
-    border: 2px solid var(--primary-color);
-    transition: ease 0.2s;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+
 }
 
 legend {
