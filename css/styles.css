@@ -65,7 +65,7 @@ legend {
 .form-container {
     margin: 5px 4%;
     border-top: 2px solid var(--primary-color);
-    padding: 5px 0 0 0;
+    padding: 30px 0 0 0;
 }
 
 .input-field {
@@ -104,7 +104,6 @@ legend {
     text-align: right;
     color: #e62525;
     font-size: 0.8rem;
-    font-style: italic;
 }
 
 fieldset {
