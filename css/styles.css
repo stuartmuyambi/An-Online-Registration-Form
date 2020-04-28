@@ -22,13 +22,16 @@
 :root {
     --heading-font-stack: 'Merriweather','Merriweather-Bold', serif;
     --body-font-stack: 'Merriweather', 'Merriweather-Regular', serif;
-    --primary-color: #2d3945;
+    --primary-color: #ea4c4c;
     --secondary-color: #4f5e6c;
+
+    --bg-primary: #fbf6dc;
 }
 
 body{
     margin: 0 auto;
     font-family: var(--body-font-stack);
+    background-color: var(--bg-primary);
 }
 
 header {
@@ -38,7 +41,7 @@ header {
 h2,
 legend {
     margin: 0 0 10px 0;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-family: var(--heading-font-stack);
     font-size: 1.2rem;
     font-weight: 700;
@@ -81,7 +84,8 @@ legend {
     display: block;
     width: 100%;
     border: none;
-    background-color: #eff0f1;
+    background-color: #fff;
+    border: 1px solid #ea4c4c54;
     border-radius: 5px;
     color: var(--secondary-color);
     margin: 10px 0;
@@ -91,9 +95,9 @@ legend {
 
 .input-field:focus,
 textarea:focus {
-    border-color: #80bdff;
+    border-color: #ea4c4ca6;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    box-shadow: 0 0 0 0.2rem #ea4c4c34;;
 
 }
 
@@ -110,7 +114,7 @@ legend {
 
 ::placeholder {
     text-align: right;
-    color: #75787a;
+    color: #e62525;
     font-size: 0.8rem;
     font-style: italic;
 }
@@ -152,7 +156,8 @@ fieldset p {
 textarea {
     width: 100%;
     border: none;
-    background-color: #eff0f1;
+    background-color: #fff;
+    border: 1px solid #ea4c4c54;
     border-radius: 5px;
     color: var(--secondary-color);
     padding: 5px;
@@ -172,14 +177,14 @@ button[type="submit"] {
     border-radius: 5px;
     padding: 15px 0;
     color: white;
-    background-color: #20c997;
+    background-color: var(--primary-color);
     width: 100%;
     font-weight: 600;
     margin-bottom: 30px;
 }
 
 button[type="submit"]:hover {
-    background-color: teal;
+    background-color: firebrick;
     transition: 0.5s ease-in-out;
 }
 
