@@ -190,6 +190,11 @@ button[type="submit"]:hover {
     margin-bottom: 150px;
 }
 
+input[id="zip"]:last-child {
+    width: 60%;
+}
+
+
 /* Media Queries */
 @media (min-width: 768px) {
 
@@ -206,7 +211,7 @@ button[type="submit"]:hover {
     }
 
     .input-field {
-        width: 70%;
+        width: 73%;
     }
 
     .about-newsletter {
