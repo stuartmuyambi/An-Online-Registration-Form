@@ -1,18 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-@font-face {
-    font-family: 'Merriweather-Bold';
-    src: url('../fonts/Merriweather-Bold.ttf');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'Merriweather-Regular';
-    src: url('../fonts/Merriweather-Regular.ttf');
-    font-weight: normal;
-}
-
 *,
 *::before,
 *::after {
@@ -20,8 +8,8 @@
 }
 
 :root {
-    --heading-font-stack: 'Merriweather','Merriweather-Bold', serif;
-    --body-font-stack: 'Merriweather', 'Merriweather-Regular', serif;
+    --heading-font-stack: 'Merriweather', serif;
+    --body-font-stack: 'Merriweather', serif;
     --primary-color: #ea4c4c;
     --secondary-color: #4f5e6c;
 
